@@ -4,6 +4,7 @@
 // Typical bootstrap 4 variables, but with our breakpoints/gutters and
 // linear increments, rather than the odd default values.. whinged about here:
 // https://github.com/twbs/bootstrap/issues/21702
+$grid-gutter-width: 30px !default;
 $grid-breakpoints: (
   xs: 0,
   sm: 768px,
@@ -130,5 +131,5 @@ $spacers: (
   top: 0;
   right: 0;
   left: 0;
-  z-index: $zindex-navbar-fixed;
+  z-index: 100000;
 }
